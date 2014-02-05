@@ -5,7 +5,7 @@
   "main": "./lib",
   "scripts": {
     "pretest": "./node_modules/.bin/jshint lib",
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "gitHead": "bf3049e3179c81c7253295dbcca1aabd371d1d49",
   "bugs": {
     "url": "https://github.com/kennethklee/kore-socket.io-redis/issues"
+  },
+  "devDependencies": {
+    "jshint": "~2.4.2",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "redis": "~0.10.0"
   }
 }
