@@ -1,0 +1,25 @@
+{
+  "name": "kore-socket.io-redis",
+  "version": "0.0.1",
+  "description": "Redis adapter for socket.io 0.10.x",
+  "main": "./lib",
+  "scripts": {
+    "pretest": "./node_modules/.bin/jshint lib",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kennethklee/kore-socket.io-redis.git"
+  },
+  "keywords": [
+    "socket.io",
+    "redis"
+  ],
+  "author": "Kenneth Lee <kennethkl@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "bf3049e3179c81c7253295dbcca1aabd371d1d49",
+  "bugs": {
+    "url": "https://github.com/kennethklee/kore-socket.io-redis/issues"
+  }
+}
