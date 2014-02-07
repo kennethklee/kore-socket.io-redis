@@ -25,10 +25,11 @@
   "devDependencies": {
     "jshint": "~2.4.2",
     "mocha": "~1.17.1",
-    "redis-mock": "~0.2.0",
     "should": "~3.1.2"
   },
   "dependencies": {
-    "redis": "~0.10.0"
+    "redis": "~0.10.0",
+    "node-redis-mock": "~0.2.11",
+    "async": "~0.2.10"
   }
 }
